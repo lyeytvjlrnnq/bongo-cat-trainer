@@ -1,0 +1,6 @@
+# bongo-cat-trainer runtime deps
+pywin32>=306 ; sys_platform == "win32"
+Pillow>=10.2.0
+pyinstaller>=6.4.0 ; extra == "build"
+pytest>=8.0.0 ; extra == "test"
+mypy>=1.8.0 ; extra == "dev"
